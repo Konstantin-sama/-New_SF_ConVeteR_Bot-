@@ -25,7 +25,7 @@ class Converter:
             raise APIException(f'не удалось обработать количество {amount}!')
 
 
-        r = requests.get(f'https://v6.exchangerate-api.com/v6/724c336b0f189189de0edf6b/latests/USD?base={base_key}&symbols={sym_key}')
+        r = requests.get(f'https://v6.exchangerate-api.com/v6/???/latests/USD?base={base_key}&symbols={sym_key}')
         resp = json.loads(r.content)
         new_price = resp['conversion_rates'][sym_key] * amount
         new_price = round(new_price, 3)
