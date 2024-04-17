@@ -3,4 +3,4 @@ exchanges = {
     'евро': 'EUR',
     'рубль': 'RUB'
 }
-TOKEN = '6211070944:AAFJfD1wasrAllFGnVtyrRD-QeaHtYc6RqE'
+TOKEN = '???'
