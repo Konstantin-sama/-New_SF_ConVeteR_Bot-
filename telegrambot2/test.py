@@ -6,7 +6,7 @@
 
 # payload = {}
 # headers = {
-#   "apikey": "hZOr6GgLrGwq3SmlCNCFhNJk9ct9BISE"
+#   "apikey": "???"
 # }
 #
 # response = requests.request("GET", url, headers=headers, data=payload)
